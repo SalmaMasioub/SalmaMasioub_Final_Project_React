@@ -59,7 +59,7 @@ size : "L"
     title : "Boxy4 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["best" , "home" , "man"]?
+    category : ["best" , "home" , "man"],
     size : "S"
     
 
