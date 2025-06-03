@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ProductProvider } from './context/productsContext'
 import Product from './pages/home/components/product';
 import Home from './pages/home/home';
+import Shop from './pages/shop/shop';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
   <div className="w-full lg:w-[75vw] flex justify-start items-center min-h-[100px]">
             <Routes>
               <Route path="/" element={<Home />} />
+               <Route path="/product" element={<Shop />} />
 
             </Routes>
           </div>

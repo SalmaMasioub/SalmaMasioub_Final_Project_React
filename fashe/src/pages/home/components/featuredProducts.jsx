@@ -34,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full overflow-hidden relative py-10 bg-gray-100">
+    <div className="w-full overflow-hidden relative pt-10 pb-1 ">
       <h1 className="text-3xl font-bold text-center mb-8 text-black/90 p-10">
        FEATURED PRODUCTS
       </h1>

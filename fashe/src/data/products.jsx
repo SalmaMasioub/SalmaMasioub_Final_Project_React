@@ -11,7 +11,8 @@ export const products = [
     title : "Boxy T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["home" , "Featured"]
+    category : ["home" , "Featured" , "men"],
+    size : "M"
   },
 
    { id : 1,
@@ -21,7 +22,9 @@ export const products = [
     title : "Boxy1 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
      oldprice : null,
-    category : ["home" , "Featured"]
+    category : ["home" , "Featured" , "women"],
+        size : "S"
+
 
 
   },
@@ -33,7 +36,8 @@ export const products = [
     title : "Boxy2 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["home" , "Featured"]
+    category : ["home" , "Featured" ,"man" ],
+    size : "L"
 
   },
 
@@ -44,8 +48,8 @@ export const products = [
     title : "Boxy3 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice: "$30.00",
-   category : ["home" , "Featured"]
-
+   category : ["home" , "Featured" , "women"],
+size : "L"
   },
 
    { id : 4,
@@ -55,7 +59,9 @@ export const products = [
     title : "Boxy4 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-        category : ["best" , "home"]
+    category : ["best" , "home" , "man"]?
+    size : "S"
+    
 
   },
 
@@ -66,7 +72,8 @@ export const products = [
     title : "Boxy5 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-     category : ["best" , "home"]
+     category : ["best" , "home" , "women"],
+     size : "M"
 
   },
 
@@ -77,7 +84,8 @@ export const products = [
     title : "Boxy6 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["best" , "home"]
+    category : ["best" , "home" , "man"],
+    size : "L"
 
   },
 
@@ -88,6 +96,7 @@ export const products = [
     title : "Boxy7 T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["best" , "home"]
+    category : ["best" , "home" ,"women"],
+    size : "S"
   },
 ];

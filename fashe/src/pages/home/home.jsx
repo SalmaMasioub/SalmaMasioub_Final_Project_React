@@ -4,6 +4,7 @@ import AnimatedSlide from './components/caroussel';
 import Carousel from './components/featuredProducts';
 import Blogs from './components/blogs';
 import Our from './components/ourProducts';
+import Follow from './components/follow';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Carousel></Carousel>
         <Our></Our>
         <Blogs></Blogs>
+        <Follow></Follow>
         </div>
     );
 };
