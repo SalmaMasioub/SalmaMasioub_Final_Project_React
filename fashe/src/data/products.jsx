@@ -11,8 +11,9 @@ export const products = [
     title : "Boxy T-Shirt with Roll Sleeve Detail" ,
     price : "$20.00",
     oldprice : null,
-    category : ["home" , "Featured" , "men"],
-    size : "M"
+    category : ["home" , "Featured" , "man"],
+    size : "M",
+    color : "black"
   },
 
    { id : 1,
@@ -23,7 +24,8 @@ export const products = [
     price : "$20.00",
      oldprice : null,
     category : ["home" , "Featured" , "women"],
-        size : "S"
+    size : "S",
+    color : "white"
 
 
 
@@ -37,7 +39,8 @@ export const products = [
     price : "$20.00",
     oldprice : null,
     category : ["home" , "Featured" ,"man" ],
-    size : "L"
+    size : "L",
+    color :"gray"
 
   },
 
@@ -49,7 +52,8 @@ export const products = [
     price : "$20.00",
     oldprice: "$30.00",
    category : ["home" , "Featured" , "women"],
-size : "L"
+size : "L",
+    color :"black"
   },
 
    { id : 4,
@@ -60,7 +64,9 @@ size : "L"
     price : "$20.00",
     oldprice : null,
     category : ["best" , "home" , "man"],
-    size : "S"
+    size : "S",
+    color :"white"
+    
     
 
   },
@@ -73,7 +79,8 @@ size : "L"
     price : "$20.00",
     oldprice : null,
      category : ["best" , "home" , "women"],
-     size : "M"
+     size : "M",
+    color :"gray"
 
   },
 
@@ -85,7 +92,8 @@ size : "L"
     price : "$20.00",
     oldprice : null,
     category : ["best" , "home" , "man"],
-    size : "L"
+    size : "L",
+    color :"black"
 
   },
 
@@ -97,6 +105,7 @@ size : "L"
     price : "$20.00",
     oldprice : null,
     category : ["best" , "home" ,"women"],
-    size : "S"
+    size : "S",
+    color :"white"
   },
 ];
