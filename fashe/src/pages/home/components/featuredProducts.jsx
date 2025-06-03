@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => (
     </Link>
     <p className="font-light text-black">{product.price}</p>
     {product.oldprice && (
-      <p className="line-through text-sm text-red-500">{product.oldprice}</p>
+      <p className="line-through text-sm text-black">{product.oldprice}</p>
     )}
   </div>
 );

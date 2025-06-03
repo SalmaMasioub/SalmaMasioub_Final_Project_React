@@ -5,6 +5,7 @@ import { category } from '../../../data/category';
 const Product = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-5">
+      
       {category.map((e) => (
         <Link to={`/product`} key={e.button} className="group border border-gray-200 overflow-hidden relative" >
           <div className="relative w-full h-96">
