@@ -5,6 +5,7 @@ import Product from './pages/home/components/product';
 import Home from './pages/home/home';
 import Shop from './pages/shop/shop';
 import Details from './layout/details';
+import Blogdetails from './layout/blogdetails';
 
 const App = () => {
     return (
@@ -19,7 +20,7 @@ const App = () => {
               <Route path="/" element={<Home />} />
                <Route path="/product" element={<Shop />} />
                 <Route path="/details/:title" element={<Details />} />
-
+<Route  path="/blogs/:name" element={<Blogdetails />} />
             </Routes>
           </div>
         </div>

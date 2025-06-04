@@ -10,7 +10,7 @@ const Blogs = () => {
        OUR BLOGS
       </h1>     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-5">
       {blogs.map((e) => (
-        <Link to={`/blogs`} key={e.title} className=" overflow-hidden hover:text-red-700 " >
+        <Link to={`/blogs/${e.name}`} key={e.title} className=" overflow-hidden hover:text-red-700 " >
           <div className="relative w-full h-96">
             <img
               src={e.image}
