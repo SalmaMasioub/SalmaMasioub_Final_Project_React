@@ -10,6 +10,7 @@ import Footer from './layout/footer';
 import Navbar from './layout/navbar';
 import About from './pages/about/about';
 import Contact from './pages/contact/contact';
+import Blog from './pages/blog/blog';
 
 const App = () => {
   return (
@@ -25,8 +26,11 @@ const App = () => {
             <Route path="/about" element={<About />} />
 <Route path="/contact" element={<Contact />} />
             <Route path="/product" element={<Shop />} />
+             <Route path="/blog" element={<Blog />} />
+
             <Route path="/details/:title" element={<Details />} />
             <Route path="/blogs/:name" element={<Blogdetails />} />
+
           </Routes>
 
           <Footer />

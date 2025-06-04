@@ -23,7 +23,7 @@ const Navbar = () => {
                         <Link to={"/product"} className='hover:text-red-600' href="">Shop</Link>
                         <Link to={""} className='hover:text-red-600' href="">Sale</Link>
                         <Link to={""} className='hover:text-red-600' href="">Features</Link>
-                        <Link to={"/blogs"} className='hover:text-red-600' href="">Blog</Link>
+                        <Link to={"/blog"} className='hover:text-red-600' href="">Blog</Link>
                         <Link to={"/about"} className='hover:text-red-600' href="">About</Link>
                         <Link to={"/contact"} className='hover:text-red-600' href="">Contact</Link>
                     </nav>
