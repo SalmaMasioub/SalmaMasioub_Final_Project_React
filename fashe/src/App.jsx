@@ -24,7 +24,6 @@ const App = () => {
             </Routes>
           </div>
         </div>
-        
         </ProductProvider>
     );
 };
