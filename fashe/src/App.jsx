@@ -7,13 +7,14 @@ import Shop from './pages/shop/shop';
 import Details from './layout/details';
 import Blogdetails from './layout/blogdetails';
 import Footer from './layout/footer';
+import Navbar from './layout/navbar';
 
 const App = () => {
     return (
         <ProductProvider>
             <div className='flex'>
                 <div className='lg:w-[25vw] h-1/2 bg-amber-400'>
-                    <h1>HELLOOOO</h1>
+                    <Navbar></Navbar>
                 </div>
 
                 <div className="w-full lg:w-[75vw] flex flex-col justify-start items-center min-h-[100px]">

@@ -16,6 +16,7 @@ import jacketBack from "../assets/images/shopy6.png"
 import sac from "../assets/images/shopy5.png"
 import chemise from "../assets/images/shopy4.png"
 import boxy from "../assets/images/shopy3.png"
+import logo from "../assets/images/logo.png.png"
 
 
 const images = {
