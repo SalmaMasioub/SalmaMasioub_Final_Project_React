@@ -4,6 +4,7 @@ import { ProductProvider } from './context/productsContext'
 import Product from './pages/home/components/product';
 import Home from './pages/home/home';
 import Shop from './pages/shop/shop';
+import Details from './layout/details';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
                <Route path="/product" element={<Shop />} />
+                <Route path="/details/:title" element={<Details />} />
 
             </Routes>
           </div>

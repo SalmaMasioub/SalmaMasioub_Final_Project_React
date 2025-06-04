@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => (
   <div className="p-4 w-full max-w-[230px] text-center">
     <img src={product.image} alt="" />
-    <Link
-      to="/detail"
+    <Link to={`/details/${product.title}`}
       className="text-lg mb-2 font-light hover:text-red-700"
     >
       {product.title}
