@@ -8,6 +8,7 @@ import Details from './layout/details';
 import Blogdetails from './layout/blogdetails';
 import Footer from './layout/footer';
 import Navbar from './layout/navbar';
+import About from './pages/about/about';
 
 const App = () => {
     return (
@@ -20,6 +21,8 @@ const App = () => {
                 <div className="w-full lg:w-[75vw] flex flex-col justify-start items-center min-h-[100px]">
                     <Routes>
                         <Route path="/" element={<Home />} />
+                                                <Route path="/about" element={<About />} />
+
                         <Route path="/product" element={<Shop />} />
                         <Route path="/details/:title" element={<Details />} />
                         <Route path="/blogs/:name" element={<Blogdetails />} />
